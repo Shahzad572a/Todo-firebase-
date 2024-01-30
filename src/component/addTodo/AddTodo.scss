@@ -1,0 +1,41 @@
+ 
+.add-todo {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+  .btn {
+      height: 25px;
+      background-color: rgb(41, 186, 41);
+      border: none;
+      border-radius: 5px;
+       color: #fff;
+        border: none;
+       width: 90px;
+        cursor: pointer;
+        font-size: 16px;
+  }
+    input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .btn2 {
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        font-size: 16px;
+
+        &:hover {
+            background-color: #45a049;
+        }
+    }
+}

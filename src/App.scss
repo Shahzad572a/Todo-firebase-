@@ -1,0 +1,62 @@
+ 
+
+ 
+ body {
+   font-family: 'Arial', sans-serif;
+   margin: 0;
+   padding: 0;
+ }
+
+ .app-container {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px;
+ }
+
+ .todo-list {
+   border: 1px solid #ccc;
+   padding: 10px;
+   margin-top: 20px;
+
+   h2 {
+     text-align: center;
+   }
+ }
+
+ .todo-item {
+   display: flex;
+   align-items: center;
+   margin: 10px 0;
+   cursor: pointer;
+
+   &.completed {
+     text-decoration: line-through;
+   }
+
+   .toggle {
+     margin-right: 10px;
+   }
+
+   button {
+     margin-left: auto;
+   }
+ }
+
+ .add-todo {
+   margin-top: 20px;
+
+   h2 {
+     text-align: center;
+   }
+
+   input {
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 10px;
+   }
+
+   button {
+     width: 100%;
+     padding: 10px;
+   }
+ }
