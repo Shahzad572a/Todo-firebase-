@@ -11,6 +11,7 @@ const TodoItem = ({ todo }) => {
   const dispatch = useDispatch();
   const [isEditing, setIsEditing] = useState(false);
   const [editedText, setEditedText] = useState(todo.text);
+  const [toogle, setToggle] = useState(false);
 
   const handleDelete = () => {
     dispatch(deleteTodoReducer(todo.id));
@@ -18,6 +19,7 @@ const TodoItem = ({ todo }) => {
 
   const handleToggle = () => {
     dispatch(toggleTodoReducer(todo.id));
+    setToggle(true);
   };
 
   const handleEdit = () => {
